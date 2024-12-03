@@ -264,7 +264,31 @@
     <p>&copy; 2024 Servicios Eléctricos Industriales - Todos los derechos reservados</p>
 
 </footer>
+<form class="contact-form" onsubmit="sendToWhatsApp(event)">
+    <input type="text" id="name" placeholder="Nombre completo" required>
+    <input type="email" id="email" placeholder="Correo electrónico" required>
+    <textarea id="message" placeholder="Escribe tu mensaje aquí" rows="5" required></textarea>
+    <button type="submit">Enviar</button>
+</form>
 
+<script>
+    function sendToWhatsApp(event) {
+        event.preventDefault(); // Evita que el formulario se envíe normalmente
+
+        // Obtén los valores del formulario
+        const name = document.getElementById('name').value;
+        const email = document.getElementById('email').value;
+        const message = document.getElementById('message').value;
+
+        // Construye el mensaje para WhatsApp
+        const phoneNumber = "50256352393"; // Reemplaza con tu número (incluye el código del país, sin signos)
+        const text = `Hola, soy ${name}. Mi correo es ${email}. Mensaje: ${message}`;
+        
+        // Redirige a WhatsApp
+        const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(text)}`;
+        window.open(url, '_blank');
+    }
+</script>
 
 
 </body>
