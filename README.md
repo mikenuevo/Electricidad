@@ -239,6 +239,7 @@
 <section id="contacto">
 
     <h2>Contacto</h2>
+    <p>EMERGENCIA LAS 24 HORAS</p>
 
     <p>Envíame tus consultas o solicita un presupuesto:</p>
 
