@@ -244,14 +244,6 @@
     <p>Envíame tus consultas o solicita un presupuesto:</p>
 
 </section>
-
-
-
-<footer>
-
-    <p>&copy; 2024 Servicios Eléctricos Industriales - Todos los derechos reservados</p>
-
-</footer>
 <form class="contact-form" onsubmit="sendToWhatsApp(event)">
     <input type="text" id="name" placeholder="Nombre completo" required>
     <input type="email" id="email" placeholder="Correo electrónico" required>
@@ -279,6 +271,14 @@
         window.location.href = url;
     }
 </script>
+
+
+<footer>
+
+    <p>&copy; 2024 Servicios Eléctricos Industriales - Todos los derechos reservados</p>
+
+</footer>
+
 
 </body>
 
