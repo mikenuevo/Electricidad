@@ -269,7 +269,7 @@
         const message = document.getElementById('message').value;
 
         // Define el mensaje fijo
-        const phoneNumber = "50212345678"; // Reemplaza con tu número
+        const phoneNumber = "50256352393"; // Reemplaza con tu número
         const text = `Hola, soy ${name}, mi correo es ${email}. Este es mi mensaje: ${message}`;
 
         // Genera el enlace de WhatsApp con el mensaje fijo
