@@ -164,7 +164,7 @@
 
 <body>
 
-
+<div>
 
 <header>
 
@@ -244,7 +244,7 @@
     <p>Envíame tus consultas o solicita un presupuesto:</p>
 
 </section>
-<div class="contact-form textarea">
+
 <form class="contact-form" onsubmit="sendToWhatsApp(event)">
     <input type="text" id="name" placeholder="Nombre completo" required>
     <input type="email" id="email" placeholder="Correo electrónico" required>
@@ -272,7 +272,6 @@
         window.location.href = url;
     }
 </script>
-<div>
 
 <footer>
 
@@ -280,7 +279,7 @@
 
 </footer>
 
-
+</div>
 </body>
 
 </html>
