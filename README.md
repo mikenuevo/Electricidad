@@ -243,18 +243,6 @@
 
     <p>Envíame tus consultas o solicita un presupuesto:</p>
 
-    <form class="contact-form" action="#" method="post">
-
-        <input type="text" name="name" placeholder="Nombre completo" required>
-
-        <input type="email" name="email" placeholder="Correo electrónico" required>
-
-        <textarea name="message" placeholder="Escribe tu mensaje aquí" rows="5" required></textarea>
-
-        <button type="submit">Enviar</button>
-
-    </form>
-
 </section>
 
 
