@@ -18,7 +18,7 @@
             background-color: #6ab8b8;
         }
 
-        header {
+       header {
     background: linear-gradient(45deg, #0056a3);
     color: #3a4d9c;
     padding: 2rem 0;
@@ -28,7 +28,9 @@
     text-align: center;
 }
 
-header h1 {
+header h1, 
+header h2, 
+header h3 {
     color: #3a4d9c; /* Color principal del texto */
     text-shadow: 
         -1px -1px 0 #fff, /* Sombra superior izquierda */
@@ -36,6 +38,7 @@ header h1 {
         -1px 1px 0 #fff,  /* Sombra inferior izquierda */
         1px 1px 0 #fff;   /* Sombra inferior derecha */
 }
+
 
 
         .nav-link {
