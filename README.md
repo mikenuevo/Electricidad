@@ -176,7 +176,7 @@ header h3 {
     <footer class="text-center">
         <p>&copy; 2024 Servicios Eléctricos Industriales. Todos los derechos reservados.</p>
         <p>Síguenos en nuestras redes sociales:</p>
-        <a href="#" class="social-icon"><i class="bi bi-facebook"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=100050426498578" class="social-icon"><i class="bi bi-facebook"></i></a>
         <a href="#" class="social-icon"><i class="bi bi-instagram"></i></a>
         <a href="#" class="social-icon"><i class="bi bi-whatsapp"></i></a>
     </footer>
