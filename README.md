@@ -23,11 +23,6 @@ header {
     background: linear-gradient(45deg, #0056a3);
     color: #000000;
     padding: 2rem 0;
-    position: fixed; 
-    top: 0; 
-    left: 0; 
-    width: 100%;
-    z-index: 1000; 
     text-align: center;
 }
 
