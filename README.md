@@ -164,7 +164,7 @@ header h3 {
                     <textarea id="message" class="form-control" placeholder="Tu mensaje" rows="5" required></textarea>
                 </div>
                 <div class="text-center">
-                    <button type="submit" class="btn btn-primary">Enviar</button>
+                    <button type="button" class="btn btn-light">Enviar</button>
                 </div>
             </form>
         </section>
