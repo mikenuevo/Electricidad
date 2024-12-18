@@ -46,18 +46,7 @@
 
         }
 
-        nav a {
-
-            margin: 0 15px;
-
-            text-decoration: none;
-
-            color: white;
-
-            font-weight: bold;
-
-        }
-
+        
         section {
 
             padding: 2rem;
