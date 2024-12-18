@@ -165,7 +165,7 @@ header h3 {
     </div>
 </form>
 
-        <nav class="mt-3">
+        <nav class="mt-3", text-align: center;>
             <a href="#servicios" class="btn btn-warning mx-2">Servicios</a>
         </nav>
 
