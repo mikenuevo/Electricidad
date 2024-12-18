@@ -31,12 +31,12 @@
 header h1, 
 header h2, 
 header h3 {
-    color: #3a4d9c; /* Color principal del texto */
+    color: #3a4d9c;
     text-shadow: 
-        -1px -1px 0 #fff, /* Sombra superior izquierda */
-        1px -1px 0 #fff,  /* Sombra superior derecha */
-        -1px 1px 0 #fff,  /* Sombra inferior izquierda */
-        1px 1px 0 #fff;   /* Sombra inferior derecha */
+        -1px -1px 0 #fff, 
+        1px -1px 0 #fff,
+        -1px 1px 0 #fff,
+        1px 1px 0 #fff;
 }
 
 
