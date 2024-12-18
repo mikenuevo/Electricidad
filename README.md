@@ -19,13 +19,24 @@
         }
 
         header {
-            background: linear-gradient(45deg, #0056a3);
-            color: #3a4d9c;
-            padding: 2rem 0;
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-        }
+    background: linear-gradient(45deg, #0056a3);
+    color: #3a4d9c;
+    padding: 2rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    text-align: center;
+}
+
+header h1 {
+    color: #3a4d9c; /* Color principal del texto */
+    text-shadow: 
+        -1px -1px 0 #fff, /* Sombra superior izquierda */
+        1px -1px 0 #fff,  /* Sombra superior derecha */
+        -1px 1px 0 #fff,  /* Sombra inferior izquierda */
+        1px 1px 0 #fff;   /* Sombra inferior derecha */
+}
+
 
         .nav-link {
             color: white !important;
