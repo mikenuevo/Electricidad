@@ -15,7 +15,7 @@
     <style>
         body {
             font-family: 'Arial', sans-serif;
-            background-color: #f8f9fa;
+            background-color: #6ab8b8;
         }
 
         header {
