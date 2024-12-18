@@ -19,7 +19,7 @@
         }
 
         header {
-            background: linear-gradient(45deg, #0077cc, #0056a3);
+            background: linear-gradient(45deg, #0056a3);
             color: white;
             padding: 2rem 0;
             position: sticky;
