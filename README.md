@@ -174,9 +174,9 @@
 
     <nav>
 
-        <a href="#servicios">Servicios</a>
+        <a href="#servicios"><button type="button" class="btn btn-outline-warning">Servicios</button></a>
 
-        <a href="#contacto">Contacto</a>
+        <a href="#contacto"><button type="button" class="btn btn-outline-warning">Contacto</button></a>
 
     </nav>
 
