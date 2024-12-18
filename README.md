@@ -150,23 +150,21 @@ header h3 {
         <section id="contacto" class="mb-5">
             <h2 class="text-center mb-4">Contáctanos</h2>
             <p class="text-center">EMERGENCIA LAS 24 HORAS</p>
-            <form class="mx-auto" style="max-width: 600px;" onsubmit="sendToWhatsApp(event)">
-                <div class="mb-3">
-                    <label for="name" class="form-label">Nombre Completo</label>
-                    <input type="text" id="name" class="form-control" placeholder="Tu nombre" required>
-                </div>
-                <div class="mb-3">
-                    <label for="email" class="form-label">Correo Electrónico</label>
-                    <input type="email" id="email" class="form-control" placeholder="Tu correo" required>
-                </div>
-                <div class="mb-3">
-                    <label for="message" class="form-label">Mensaje</label>
-                    <textarea id="message" class="form-control" placeholder="Tu mensaje" rows="5" required></textarea>
-                </div>
-                <div class="text-center">
-                    <button type="button" class="btn btn-light">Enviar</button>
-                </div>
-            </form>
+            <form class="contact-form mx-auto" style="max-width: 600px;" onsubmit="sendToWhatsApp(event)">
+    <div class="mb-3">
+        <input type="text" id="name" class="form-control" placeholder="Nombre completo" required>
+    </div>
+    <div class="mb-3">
+        <input type="email" id="email" class="form-control" placeholder="Correo electrónico" required>
+    </div>
+    <div class="mb-3">
+        <textarea id="message" class="form-control" placeholder="Escribe tu mensaje aquí" rows="5" required></textarea>
+    </div>
+    <div class="text-center">
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    </div>
+</form>
+
         </section>
     </main>
 
@@ -183,19 +181,31 @@ header h3 {
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
     <script>
-        function sendToWhatsApp(event) {
-            event.preventDefault();
-            const name = document.getElementById('name').value;
-            const email = document.getElementById('email').value;
-            const message = document.getElementById('message').value;
+    function sendToWhatsApp(event) {
+        event.preventDefault();
+        
+        const name = document.getElementById('name').value.trim();
+        const email = document.getElementById('email').value.trim();
+        const message = document.getElementById('message').value.trim();
 
-            const phoneNumber = "50256352393";
-            const text = `Hola, soy ${name}, mi correo es ${email}. Este es mi mensaje: ${message}`;
-            const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(text)}`;
-
-            window.location.href = url;
+        
+        if (!name || !email || !message) {
+            alert('Por favor, completa todos los campos.');
+            return;
         }
-    </script>
+
+        
+        const phoneNumber = "50256352393"; 
+        const text = `Hola, soy ${name}, mi correo es ${email}. Este es mi mensaje: ${message}`;
+
+        
+        const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(text)}`;
+
+        
+        window.open(url, '_blank');
+    }
+</script>
+
 </body>
 
 </html>
