@@ -96,8 +96,8 @@ header h3 {
         <h1>Servicios Eléctricos Industriales en Guatemala</h1>
         <h3>Especialista en mantenimiento, instalaciones y diagnósticos eléctricos</h3>
         <nav class="mt-3">
-            <a href="#servicios" class="btn btn-warning mx-2">Servicios</a>
-            <a href="#contacto" class="btn btn-warning mx-2">Contacto</a>
+            <a href="#servicios" class="btn btn-success mx-2">Servicios</a>
+            <a href="#contacto" class="btn btn-success mx-2">Contacto</a>
         </nav>
     </header>
 
