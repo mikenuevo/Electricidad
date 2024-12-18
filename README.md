@@ -20,7 +20,7 @@
 
        header {
     background: linear-gradient(45deg, #0056a3);
-    color: #3a4d9c;
+    color: #000000;
     padding: 2rem 0;
     position: sticky;
     top: 0;
@@ -31,7 +31,7 @@
 header h1, 
 header h2, 
 header h3 {
-    color: #3a4d9c;
+    color: #000000;
     text-shadow: 
         -1px -1px 0 #fff, 
         1px -1px 0 #fff,
