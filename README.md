@@ -20,7 +20,7 @@
 
         header {
             background: linear-gradient(45deg, #0056a3);
-            color: white;
+            color: #3a4d9c;
             padding: 2rem 0;
             position: sticky;
             top: 0;
